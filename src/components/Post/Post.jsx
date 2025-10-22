@@ -5,7 +5,7 @@ import updated from '../../assets/updated.svg'
 import { useNavigate } from "react-router-dom"
 import { useApiRequest } from "../../hooks/useApiRequest"
 import { useEffect, useState } from "react"
-import heart from '../../assets/heart.svg'
+import heart from '../../assets/Heart.svg'
 import heartfull from'../../assets/heart-full.svg'
 const Post = ({ postInfo }) => {
   const navigate = useNavigate();
