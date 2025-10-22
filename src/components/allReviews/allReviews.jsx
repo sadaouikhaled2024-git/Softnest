@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./AllReviews.css";
+import "./allReviews.css";
 import teacherIcon from '../../assets/teacher-rating.svg'
 import { useApiRequest } from "../../hooks/useApiRequest";
 import { useNavigate } from "react-router-dom";
