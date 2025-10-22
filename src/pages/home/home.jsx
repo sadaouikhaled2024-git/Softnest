@@ -5,7 +5,7 @@ import backgound2 from '../../assets/backgound2.svg'
 import logo from '../../assets/Logo-03.svg'
 import commapp from '../../images/Community_app.png'
 import useScrollAnimation from "../../hooks/useScrollAnimation";
-import arrowright from '../../assets/arrow-right.svg'
+import arrowright from '../../assets/Arrow-right.svg'
 import background3 from '../../assets/backgound3.svg'
 import repoapp1 from '../../images/repo_example_1.png'
 import repoapp2 from '../../images/repo_example_2.png'
