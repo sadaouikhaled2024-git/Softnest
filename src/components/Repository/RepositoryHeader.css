@@ -1,0 +1,52 @@
+.repository-header {
+    padding: 16px 16px 16px ;
+  }
+  
+  .repository-owner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    color: #8b949e;
+    background-color: #23262a;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  
+  .developer-name {
+    color: #00d084;
+    font-size: 16px;
+  }
+  
+  .separator {
+    margin: 0 8px;
+    color: #8b949e;
+  }
+  
+  .project-name {
+    color: #00d084;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.animated-fadein {
+  animation: fadeIn 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+.animated-hover {
+  transition: color 0.3s cubic-bezier(0.4,0,0.2,1), transform 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.animated-hover:hover {
+  color: #0078d4;
+  transform: translateY(-2px) scale(1.05);
+  cursor: pointer;
+}

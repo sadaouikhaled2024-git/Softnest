@@ -1,0 +1,69 @@
+.language-stats {
+    margin-top: 16px;
+  }
+  
+  .stats-bar {
+    display: flex;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  
+  .stats-segment {
+    height: 100%;
+  }
+  
+  .stats-segment.html {
+    background-color: #9931a9;
+  }
+  
+  .stats-segment.css {
+    background-color: #1a0ecc;
+  }
+  
+  .stats-segment.js {
+    background-color: #f0db4f;
+  }
+  
+  .stats-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .legend-color.html {
+    background-color: #9931a9;
+  }
+  
+  .legend-color.css {
+    background-color: #1a0ecc;
+  }
+  
+  .legend-color.js {
+    background-color: #f0db4f;
+  }
+  
+  .legend-label {
+    color: #8b949e;
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  
+  .legend-value {
+    color: white;
+    font-size: 14px;
+  }
+  

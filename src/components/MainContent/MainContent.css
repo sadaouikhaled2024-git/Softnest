@@ -1,0 +1,65 @@
+/* components/MainContent.css */
+.profile-main-content {
+    flex: 1;
+    padding: 24px 16px;
+    border-left: 1px solid var(--border-color);
+  }
+  
+  .tabs {
+    display: flex;
+    border-bottom: 2px solid #ffffff1f;
+    margin-bottom: 24px;
+
+  }
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab:hover {
+    color: var(--text-primary);
+  }
+  
+  .tab.active {
+    color: var(--text-primary);
+    border-bottom-color:#FF4500;
+    
+  }
+  
+  .profile-section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #C9D1D9;
+  }
+  
+  .repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-main-content {
+      border-left: none;
+      border-top: 1px solid var(--border-color);
+    }
+  }
+  .no-archived-repositories{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding:100px 0 100px  0 ;
+    justify-content: center;
+    font-size: 1.5rem;
+  }

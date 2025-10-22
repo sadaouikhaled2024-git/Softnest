@@ -1,0 +1,74 @@
+.team-member {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .member-image-container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .member-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover .member-image {
+    transform: scale(1.05);
+  }
+  
+  .member-info {
+    padding: 24px;
+    text-align: left;
+  }
+  
+  .member-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .member-role {
+    color: #58a6ff;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .member-bio {
+    color: #8b949e;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .member-info {
+      padding: 16px;
+    }
+  
+    .member-name {
+      font-size: 18px;
+    }
+  
+    .member-role {
+      font-size: 14px;
+    }
+  }
+.member-name{
+  color: white;
+}  

@@ -1,0 +1,20 @@
+.user-profile {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    
+  }
+  
+  .profile-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 24px;
+    padding: 0 16px 32px;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

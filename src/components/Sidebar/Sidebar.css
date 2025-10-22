@@ -1,0 +1,106 @@
+.sidebar-app {
+    width: 200px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar-section-app {
+    margin-bottom: 24px;
+  }
+  
+  .sidebar-title-app {
+    font-weight: 500;
+    color: #24292f;
+    margin-bottom: 12px;
+  }
+  
+  .sidebar-list-app {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-item-app {
+    color: #57606a;
+    padding: 4px 0;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .sidebar-item-app:hover {
+    color: #0969da;
+  }
+  
+  .sidebar-item-app.active {
+    color: #0969da;
+    font-weight: 500;
+  }
+  
+  .filters-section {
+    margin-top: 24px;
+  }
+  
+  .filters-button {
+    display: flex;
+    align-items: center;
+    color: #24292f;
+    font-weight: 500;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .chevron-icon {
+    margin-left: 8px;
+    height: 16px;
+    width: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .chevron-icon.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .filters-content {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+  }
+  
+  .filter-group {
+    margin-bottom: 16px;
+  }
+  
+  .filter-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  .filter-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .filter-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #57606a;
+    cursor: pointer;
+  }
+  
+  .filter-checkbox input {
+    margin-right: 8px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+  
+  

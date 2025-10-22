@@ -1,0 +1,84 @@
+.reviews-container {
+  padding: 40px;
+  background-color: #0d1117;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.page-title {
+  font-size: 26px;
+  color: #58a6ff;
+  margin-bottom: 32px;
+}
+
+.review-card {
+  background-color: #161b22;
+  border: 1.5px solid #2d333b;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  transition: transform 0.2s ease;
+}
+
+.review-card:hover {
+  transform: scale(1.01);
+  border-color: #00d084;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.repo-name {
+    color: #00d084;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.repo-name:hover {
+  text-decoration: underline;
+}
+
+.review-rating {
+  font-size: 16px;
+  color: #FF4500;
+  align-items: center;
+  font-weight: bold;
+}
+
+.review-body {
+  margin-bottom: 16px;
+}
+
+.review-comment {
+  font-size: 15px;
+  color: #c9d1d9;
+  font-style: italic;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #8b949e;
+}
+
+.teacher-name {
+  font-weight: 500;
+}
+
+.review-date {
+  font-style: italic;
+}
+.teacherIcon{
+    margin-right: 5px;
+}
+.teacher-name-button:hover{
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: 1px underline #c9d1d9;;
+}

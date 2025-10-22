@@ -1,0 +1,98 @@
+.mission-section {
+    background-color: #161b22;
+    padding: 80px 0;
+    
+  }
+  
+  .mission-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .mission-section-title{
+    color: white;
+  }
+  .mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  
+  .mission-text {
+    font-size: 20px;
+    color: #8b949e;
+    line-height: 1.6;
+  }
+  
+  .values-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  
+  .value-card {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 350px;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .value-icon {
+    width: 48px;
+    height: 48px;
+    color: #58a6ff;
+    margin-bottom: 16px;
+  }
+  
+  .value-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: white;
+  }
+  
+  .value-description {
+    color: #8b949e;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .mission-section {
+      padding: 60px 0;
+    }
+  
+    .mission-text {
+      font-size: 18px;
+    }
+  
+    .value-card {
+      padding: 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mission-section {
+      padding: 40px 0;
+    }
+  
+    .mission-content {
+      margin-bottom: 40px;
+    }
+  
+    .mission-text {
+      font-size: 16px;
+    }
+  }
+  

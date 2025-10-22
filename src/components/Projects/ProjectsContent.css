@@ -1,0 +1,22 @@
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding-right: 16px;
+    
+  }
+  
+  .projects-container {
+    border: 1px solid #23262a;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #161b22;
+  }
+  
+  @media (max-width: 768px) {
+    .projects-content {
+      gap: 8px;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+html{
+    font-size: 16px;
+}
+.unauthorised-img{
+    width: 20vw;
+    margin: 30px;
+}
+.not-authorized {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 48px;
+    color: rgb(87, 57, 57);
+    font-weight: 900;
+    font-family: 'Zain';
+}

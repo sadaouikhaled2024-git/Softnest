@@ -1,0 +1,8 @@
+.repository-content {
+    flex: 1;
+    background-color: #10161d;
+    border-radius: 8px;
+    border: 1px solid #23262a;
+    overflow: hidden;
+  }
+  

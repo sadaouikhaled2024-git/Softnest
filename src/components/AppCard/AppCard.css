@@ -1,0 +1,81 @@
+.app-card {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+  }
+  
+  .app-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    flex-shrink: 0;
+  }
+  
+  .app-info {
+    flex: 1;
+  }
+  
+  .app-name-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .app-name {
+    color: #0969da;
+    font-weight: 500;
+    margin: 0;
+    cursor: pointer;
+    margin-right: 4px;
+    font-size: 16px;
+  }
+  .app-name:hover{
+    text-decoration:2px underline #0969da;
+    
+  }
+  
+  .check-icon {
+    height: 16px;
+    width: 16px;
+    color: #0969da;
+  }
+  
+  .app-author {
+    font-size: 14px;
+    color: #57606a;
+    margin: 0 0 4px 0;
+  }
+  
+  .app-description {
+    font-size: 14px;
+    color: #57606aa2;
+    margin: 0 0 8px 0;
+      
+  }
+  
+  .app-badges {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .recommended-badge {
+    font-size: 12px;
+    background-color: #f6f8fa;
+    color: #57606a;
+    padding: 2px 8px;
+    border-radius: 9999px;
+  }
+  
+  .rating-badge {
+    font-size: 12px;
+    color: #00d084;
+    font-weight: 500;
+  }
+  
+  

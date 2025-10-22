@@ -1,0 +1,135 @@
+/* Repository item styles */
+.repository-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 16px;
+    border-top: 1px solid #23262a;
+  }
+  
+  .repository-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .repository-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repository-name {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  
+  .repository-privacy {
+    border-radius: 10px;
+    border: 1px solid #30363d;
+    padding: 2px 8px;
+    font-size: 12px;
+    color: #8b949e;
+  }
+  
+  .repository-stats {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repository-rating {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+  }
+  
+  .rating-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ff4500;
+    margin-right: 4px;
+  }
+  
+  .repository-likes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .likes-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #8a2be2;
+    margin-right: 4px;
+  }
+  
+  .repository-description {
+    font-size: 14px;
+    color: #8b949e;
+    margin-bottom: 16px;
+  }
+  
+  .repository-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .repository-language {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 8px;
+  }
+  
+  .language-name {
+    font-size: 12px;
+    color: #8b949e;
+  }
+  
+  .repository-updated {
+    font-size: 12px;
+    color: #8b949e;
+  }
+  
+  .repository-message {
+    color: #8b949e;
+    font-size: 14px;
+  }
+  
+  .repository-time {
+    color: #8b949e;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  @media (max-width: 768px) {
+    .repository-item {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+  
+    .repository-time {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .repository-header {
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .repository-stats {
+      justify-content: flex-start;
+    }
+  }
+  

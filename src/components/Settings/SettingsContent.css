@@ -1,0 +1,12 @@
+.settings-content {
+    display: flex;
+    gap: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    .settings-content {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+  

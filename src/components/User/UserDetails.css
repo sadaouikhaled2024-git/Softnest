@@ -1,0 +1,172 @@
+.user-details-container {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 0 auto;
+    font-family: 'Roboto';
+    background-color:#10161D ;
+  }
+  
+  .user-profile-header {
+    display: flex;
+    gap: 32px; 
+    margin-top:32px ;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #30363d;
+  }
+  
+  .user-avatar-container {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: white;
+  }
+  
+  .user-username {
+    font-size: 18px;
+    color: #8b949e;
+    margin-bottom: 8px;
+  }
+  
+  .user-followers {
+    font-size: 14px;
+    color: #8b949e;
+    margin-bottom: 16px;
+  }
+  
+  .user-bio {
+    font-size: 16px;
+    color: #c9d1d9;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  
+  .user-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .user-location,
+  .user-email,
+  .user-website {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #8b949e;
+    font-size: 14px;
+  }
+  
+  .meta-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .user-website a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  
+  .user-website a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .edit-profile-button {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .edit-profile-button:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+  }
+  
+  .user-content-grid {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .main-content-area {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .sidebar-area {
+    flex: 1;
+  }
+  
+  @media (max-width: 1024px) {
+    .user-profile-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .user-meta {
+      justify-content: center;
+    }
+  
+    .user-actions {
+      margin-top: 16px;
+      justify-content: center;
+    }
+  
+    .user-content-grid {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .user-avatar-container {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .user-avatar-container {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .user-name {
+      font-size: 24px;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+.project-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #23262a;
+    transition: background-color 0.2s;
+  }
+  
+  .project-item:hover {
+    background-color: #1e2a38;
+  }
+  
+  .project-item:last-child {
+    border-bottom: none;
+  }
+  
+  .project-icon {
+    width: 20px;
+    height: 20px;
+    color: #8b949e;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+  
+  .project-name {
+    flex: 1;
+    font-size: 14px;
+    color: #58a6ff;
+    font-weight: 500;
+  }
+  
+  .project-status {
+    margin-left: 16px;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .status-badge.open {
+    background-color: #238636;
+    color: white;
+  }
+  
+  .status-badge.closed {
+    background-color: #da3633;
+    color: white;
+  }
+  
+  @media (max-width: 480px) {
+    .project-item {
+      padding: 10px 12px;
+    }
+  
+    .project-status {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+
+  
+  .main-container {
+    display: flex;
+    flex: 1;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    width: 100%;
+    font-family: 'Roboto';
+    color: white;
+    background-color: #10161D;
+  }
+  .main-container.center{
+    justify-content: space-around;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+    }
+  }

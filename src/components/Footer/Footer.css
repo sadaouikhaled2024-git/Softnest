@@ -1,0 +1,129 @@
+.footer {
+    font-family: 'Roboto';
+    background-color: #10161D;
+    border-top: 1px solid #d0d7deb2;
+    padding: 48px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+  
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .footer-logo {
+
+    margin-right: 8px;
+  }
+  
+  .footer-brand-name {
+    font-size: 2rem;
+    font-family: 'Zain';
+    font-weight: bold;
+    color: white;
+  }
+  
+  .footer-link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-link {
+    color: #d0d6dc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .footer-link:hover {
+    color: #0969da;
+  }
+  
+  .powered-text {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #d0d6dc;
+    margin-bottom: 16px;
+  }
+  
+  .powered-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .powered-logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .footer-bottom {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid #d0d7deb2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: #d0d6dc;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .social-icon {
+    color: #d0d6dc;
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  
+  .social-icon:hover {
+    color: #0969da;
+  }
+  
+  .social-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+  }
+  
+  

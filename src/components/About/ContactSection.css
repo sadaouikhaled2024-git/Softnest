@@ -1,0 +1,116 @@
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    background-color: #161b22;
+  }
+  .contact-section-title{
+    color: white;
+  }
+  .contact-container {
+    display: flex;
+    gap: 64px;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  .form-label{
+    color: white;
+    padding-top: 15px;
+  }
+  .contact-description {
+    color: #8b949e;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+  }
+  
+  .contact-method {
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+    color: #58a6ff;
+    flex-shrink: 0;
+  }
+  
+  .contact-details {
+    flex: 1;
+  }
+  
+  .contact-method-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .contact-method-value {
+    color: #8b949e;
+    font-size: 16px;
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  
+  .submit-button {
+    background-color: #238636;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #2ea043;
+  }
+  
+  @media (max-width: 900px) {
+    .contact-container {
+      flex-direction: column;
+      gap: 48px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 60px 24px;
+    }
+  
+    .contact-description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-section {
+      padding: 40px 16px;
+    }
+  
+    .contact-form-container {
+      padding: 24px;
+    }
+  }
+  

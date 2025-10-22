@@ -1,0 +1,130 @@
+.user-stats-container {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 24px;
+    width: 80%;
+    margin: 32px;
+  }
+  
+  .stats-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #c9d1d9;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  
+  .stat-card {
+    background-color: #161b22;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .stat-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d1117;
+    border-radius: 8px;
+    color: #58a6ff;
+  }
+  
+  .stat-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .stat-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #c9d1d9;
+  }
+  
+  .stat-label {
+    font-size: 14px;
+    color: #8b949e;
+  }
+  
+  .contribution-chart {
+    margin-top: 24px;
+  }
+  
+  .chart-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #c9d1d9;
+  }
+  
+  .chart-container {
+    overflow-x: auto;
+  }
+  
+  .chart-grid {
+    display: flex;
+    gap: 3px;
+    min-width: 100%;
+  }
+  
+  .chart-week {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  .chart-day {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #161b22;
+  }
+  
+  .chart-day.level-0 {
+    background-color: #161b22;
+  }
+  
+  .chart-day.level-1 {
+    background-color: #0e4429;
+  }
+  
+  .chart-day.level-2 {
+    background-color: #006d32;
+  }
+  
+  .chart-day.level-3 {
+    background-color: #26a641;
+  }
+  
+  .chart-day.level-4 {
+    background-color: #39d353;
+  }
+  
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
